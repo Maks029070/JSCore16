@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+</head>
+<body>
+	<h1>GET method</h1>
+	<form>
+		<label>Name:</label><br>
+		<input type="text" id="userNameGet"><br><br>
+
+		<label>Surname:</label><br>
+		<input type="text" id="userSurnameGet"><br><br>
+
+		<label>Age:</label><br>
+		<input type="text" id="userAgeGet"><br><br>
+
+		<label>Residence:</label><br>
+		<input type="text" id="userResidenceGet"><br><br>
+
+		<input type="button" value="Send your data" onclick="sendDataByGet()">
+
+	</form>
+
+	<h1>POST method</h1>
+	<form>
+		<label>Name:</label><br>
+		<input type="text" id="userNamePost"><br><br>
+
+		<label>Surname:</label><br>
+		<input type="text" id="userSurnamePost"><br><br>
+
+		<label>Age:</label><br>
+		<input type="text" id="userAgePost"><br><br>
+
+		<label>Residence:</label><br>
+		<input type="text" id="userResidencePost"><br><br>
+
+		<input type="button" value="Send your data" onclick="sendDataByPost()">
+
+	</form>
+	<script src="task.js"></script>
+</body>
+</html>
